@@ -146,4 +146,11 @@ Open four terminals and in each one run:
 
 The book is written is a very conversational style that is both enjoyable and accessible. I think you will enjoy reading it. Give it a try if you have time. If you want just to learn about serialization in network communication then read the Section **7.5 Serialization—How to Pack Data** (https://beej.us/guide/bgnet/html/split-wide/slightly-advanced-techniques.html#serialization). 
 
- 
+
+
+
+ #Changes Made During this assignment 
+
+ <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/95aaf09f-8484-4c5f-bbf7-d698be7439e1" />
+
+The makefile created calls the server an client .c files and links them over a socket. Running the make file on the original image then setting up each individual client to initiate the connection. The program then iterprets when 4 connetions are made. 
